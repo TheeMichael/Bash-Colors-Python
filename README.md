@@ -7,7 +7,9 @@ Rather than clone the repo, just wget the file and use it where you want
 wget https://raw.githubusercontent.com/TheeMichael/Bash-Colors-Python/main/bash_colors.py
 ```
 
-Then import and use fstrings \
+Then import and use fstrings
+\
+\
 Example 1
 ```
 import bash_colors as BC
