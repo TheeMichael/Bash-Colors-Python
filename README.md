@@ -18,3 +18,8 @@ Example 2
 from bash_colors import *
 print(f"{GREEN_B}Example Text!{ENDC}")
 ```
+## Built in Example
+To use the built in example run the file from the terminal
+```
+python3 ./bash_colors.py
+```
