@@ -2,14 +2,6 @@
 # Bash Colors
 # import to use all colors, or copy values
 # There is no license, go Ham
-#
-# Example 1:
-# import bash_colors.py as BC
-# print(f"{BC.RED_B}Color Example{BC.ENDC}")
-# 
-# Example 2:
-# import bash_colors.py
-# print(f"{RED_B}Color Example{ENDC}")
 #########################################################
 
 ENDC = "\033[0m"
