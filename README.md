@@ -19,7 +19,7 @@ Import the module and sandwich desired text between a color and the end-constant
 \
 Example 1
 ```
-import bash_colors as BC
+import bash_colors as bc
 print(f"{bc.GREEN_B}Example Text!{bc.ENDC}")
 ```
 Example 2

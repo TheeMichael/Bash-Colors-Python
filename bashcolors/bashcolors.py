@@ -1,8 +1,10 @@
-#########################################################
-# Bash Colors
-# import to use all colors, or copy values
-# There is no license, go Ham
-#########################################################
+r"""
+Bash Colors provides f-string usable constants for color coding terminal outputs using bash
+
+Example:
+  - import bash_colors as bc
+  - print(f"{bc.GREEN_B}Example Text!{bc.ENDC}")
+"""
 
 ENDC = "\033[0m"
 '''End Color Termination Value'''
