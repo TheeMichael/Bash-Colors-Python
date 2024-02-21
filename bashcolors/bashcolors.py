@@ -123,6 +123,8 @@ L_GRAY="\033[37m"
 WHITE="\033[97m"
 '''White'''
 
+TEST_VAR=0
+
 def bash_colors_test():
     #Blacks
     print(f"{BLACK}Black{ENDC}")
