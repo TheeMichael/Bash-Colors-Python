@@ -3,11 +3,16 @@
 # import to use all colors, or copy values
 # There is no license, go Ham
 #########################################################
+from os import name as os_name
 
 ENDC = "\033[0m"
 '''End Color Termination Value'''
 
+
+
+#------------------------------
 # Bold Colors
+#------------------------------
 BLACK_B="\033[1;30m"
 '''Black Bold'''
 
@@ -32,6 +37,11 @@ CYAN_B="\033[1;36m"
 GRAY_B="\033[1;90m" 
 '''Gray Bold'''
 
+
+
+#------------------------------
+# Light Bold Colors
+#------------------------------
 L_RED_B="\033[1;91m"
 '''Light Red Bold'''
 
@@ -56,7 +66,11 @@ L_GRAY_B="\033[1;37m"
 WHITE_B="\033[1;97m"
 '''White Bold'''
 
-#Regular Colors
+
+
+#------------------------------
+# Regular Colors
+#------------------------------
 BLACK="\033[30m"
 '''Black'''
 
@@ -81,6 +95,11 @@ CYAN="\033[36m"
 GRAY="\033[90m" 
 '''Gray'''
 
+
+
+#------------------------------
+# Light Colors
+#------------------------------
 L_RED="\033[91m"
 '''Light Red'''
 
@@ -105,6 +124,47 @@ L_GRAY="\033[37m"
 WHITE="\033[97m"
 '''White'''
 
+
+if os_name == 'nt':
+    ENDC = ""
+
+    # Bold Colors
+    BLACK_B=""
+    RED_B=""
+    GREEN_B=""
+    YELLOW_B=""
+    BLUE_B=""
+    MAGENTA_B=""
+    CYAN_B="" 
+    GRAY_B="" 
+
+    L_RED_B=""
+    L_GREEN_B=""
+    L_YELLOW_B=""
+    L_BLUE_B=""
+    L_MAGENTA_B=""
+    L_CYAN_B="" 
+    L_GRAY_B=""
+    WHITE_B=""
+
+    #Regular Colors
+    BLACK=""
+    RED=""
+    GREEN=""
+    MAGENTA=""
+    CYAN=""
+    GRAY=""
+
+    #Light Colors
+    L_RED=""
+    L_GREEN=""
+    L_YELLOW=""
+    L_BLUE=""
+    L_MAGENTA=""
+    L_CYAN=""
+    L_GRAY=""
+
+    WHITE=""
 
 def bash_colors_test():
     #Blacks
