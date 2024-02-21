@@ -1,19 +1,26 @@
 # Bash-Colors-Python
 Simple constants to implement bash colors in python f-strings
 
-## How to use
-Rather than clone the repo, just wget the file and use it where you want
+## Installing
+
+Use pip to install directly from git
 ```
-wget https://raw.githubusercontent.com/TheeMichael/Bash-Colors-Python/main/bash_colors.py
+pip install git+https://github.com/TheeMichael/Bash-Colors-Python.git
 ```
 
-Then import and use fstrings
-\
+## Uninstalling
+
+```
+pip uninstall bashcolors
+```
+
+## How to use
+Import the module and sandwich desired text between a color and the end-constant in a python f string
 \
 Example 1
 ```
 import bash_colors as BC
-print(f"{BC.GREEN_B}Example Text!{BC.ENDC}")
+print(f"{bc.GREEN_B}Example Text!{bc.ENDC}")
 ```
 Example 2
 ```
@@ -21,7 +28,10 @@ from bash_colors import *
 print(f"{GREEN_B}Example Text!{ENDC}")
 ```
 ## Built in Example
-To use the built in example run the file from the terminal
+The example can help you see what all your bash terminal colors can look like
+\
+To use the built in example:
 ```
-python3 ./bash_colors.py
+import bashcolors as bc
+bc.bash_colors_test()
 ```

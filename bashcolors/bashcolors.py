@@ -151,6 +151,8 @@ if os_name == 'nt':
     BLACK=""
     RED=""
     GREEN=""
+    YELLOW=""
+    BLUE=""
     MAGENTA=""
     CYAN=""
     GRAY=""
