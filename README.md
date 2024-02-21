@@ -14,6 +14,12 @@ pip install git+https://github.com/TheeMichael/Bash-Colors-Python.git
 pip uninstall bashcolors
 ```
 
+## Updating to Newest Version
+Will need to uninstall package first, so that it actually updates, otherwise it will skip it
+```
+pip uninstall bashcolors
+pip install git+https://github.com/TheeMichael/Bash-Colors-Python.git
+```
 ## How to use
 Import the module and sandwich desired text between a color and the end-constant in a python f string.
 \
