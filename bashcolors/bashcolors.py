@@ -3,12 +3,9 @@
 # import to use all colors, or copy values
 # There is no license, go Ham
 #########################################################
-from os import name as os_name
 
 ENDC = "\033[0m"
 '''End Color Termination Value'''
-
-
 
 #------------------------------
 # Bold Colors
@@ -123,50 +120,6 @@ L_GRAY="\033[37m"
 
 WHITE="\033[97m"
 '''White'''
-
-
-if os_name == 'nt':
-    ENDC = ""
-
-    # Bold Colors
-    BLACK_B=""
-    RED_B=""
-    GREEN_B=""
-    YELLOW_B=""
-    BLUE_B=""
-    MAGENTA_B=""
-    CYAN_B="" 
-    GRAY_B="" 
-
-    L_RED_B=""
-    L_GREEN_B=""
-    L_YELLOW_B=""
-    L_BLUE_B=""
-    L_MAGENTA_B=""
-    L_CYAN_B="" 
-    L_GRAY_B=""
-    WHITE_B=""
-
-    #Regular Colors
-    BLACK=""
-    RED=""
-    GREEN=""
-    YELLOW=""
-    BLUE=""
-    MAGENTA=""
-    CYAN=""
-    GRAY=""
-
-    #Light Colors
-    L_RED=""
-    L_GREEN=""
-    L_YELLOW=""
-    L_BLUE=""
-    L_MAGENTA=""
-    L_CYAN=""
-    L_GRAY=""
-
-    WHITE=""
 
 def bash_colors_test():
     #Blacks
