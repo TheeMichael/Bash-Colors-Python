@@ -124,7 +124,7 @@ WHITE="\033[97m"
 '''White'''
 
 TEST_VAR=0
-
+TEST_VAR2=1
 def bash_colors_test():
     #Blacks
     print(f"{BLACK}Black{ENDC}")
