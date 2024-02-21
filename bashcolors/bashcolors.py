@@ -123,9 +123,13 @@ L_GRAY="\033[37m"
 WHITE="\033[97m"
 '''White'''
 
-TEST_VAR=0
-TEST_VAR2=1
+
 def bash_colors_test():
+    
+    """
+    Displays all color combinations to show what the colors may look like on your terminal
+    """
+    
     #Blacks
     print(f"{BLACK}Black{ENDC}")
     print(f"{BLACK_B}Black Bold{ENDC}")
