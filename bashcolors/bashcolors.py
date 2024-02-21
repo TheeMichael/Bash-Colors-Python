@@ -2,7 +2,7 @@ r"""
 Bash Colors provides f-string usable constants for color coding terminal outputs using bash
 
 Example:
-  - import bash_colors as bc
+  - import bashcolors as bc
   - print(f"{bc.GREEN_B}Example Text!{bc.ENDC}")
 """
 
@@ -129,7 +129,7 @@ def bash_colors_test():
     """
     Displays all color combinations to show what the colors may look like on your terminal
     """
-    
+
     #Blacks
     print(f"{BLACK}Black{ENDC}")
     print(f"{BLACK_B}Black Bold{ENDC}")

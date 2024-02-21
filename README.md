@@ -30,7 +30,7 @@ print(f"{bc.GREEN_B}Example Text!{bc.ENDC}")
 ```
 Example 2
 ```
-from bash_colors import *
+from bashcolors import *
 print(f"{GREEN_B}Example Text!{ENDC}")
 ```
 ## Built in Example
