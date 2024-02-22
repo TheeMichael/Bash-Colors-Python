@@ -54,6 +54,6 @@ After a lot of questioning how licensing actually worked and which one gave me c
 I chose BSD-2 for a couple reasons
 - I wanted to have a real License, and one that people are famialir with
 - I believe it has more clear langague than MIT
-- I wanted to make using my software as painless as possible, so no need to really think about use-case, forwarding the license, or attributing for basic usage
+- I wanted to make using my software as painless as possible, so no need to really think about use-cases, forwarding the license, or attributing for basic usage/install
 - I would have gone with Zero-Clause BSD, but it was not selectable as a regular license in GitHub at the time, and I wanted it to pop up when people hovered it in different views of the project
 - I didn't really want any credit, but I suppose the language seems clear enough that actual redistribution of the source code is where it must be involved
