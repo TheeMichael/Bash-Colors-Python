@@ -8,5 +8,6 @@ setup(
     description='Adds simple f-string macros to add color into your print statements',
     author='The Michael',
     url='https://github.com/TheeMichael/Bash-Colors-Python',
-    packages=['bashcolors']
+    packages=['bashcolors'],
+    license="BSD"
 )
