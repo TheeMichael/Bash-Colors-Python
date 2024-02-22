@@ -6,6 +6,7 @@ This project also serves as self-learning resource to remind myself of some fund
 - How to create an installable python module
 - Bash prompt color coding
 - How to add a License
+- Links to how to do more advanced licensing
 
 ## Installing
 
@@ -57,3 +58,5 @@ I chose BSD-2 for a couple reasons
 - I wanted to make using my software as painless as possible, so no need to really think about use-cases, forwarding the license, or attributing for basic usage/install
 - I would have gone with Zero-Clause BSD, but it was not selectable as a regular license in GitHub at the time, and I wanted it to pop up when people hovered it in different views of the project
 - I didn't really want any credit, but I suppose the language seems clear enough that actual redistribution of the source code is where it must be involved
+\
+To see examples of how to add credit for code you DIRECTLY copied into your repo, which makes you a distributor. Check out numba, numpy and tslearn to see how they included third party licensing.
